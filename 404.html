@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MAE</title>
+    <script>
+      // GitHub Pages SPA redirect trick
+      // Guarda la ruta en sessionStorage y redirige a index.html
+      var path = window.location.pathname;
+      var base = '/mae-app';
+      var route = path.replace(base, '') || '/';
+      sessionStorage.setItem('spa_redirect', route + window.location.search);
+      window.location.replace(base + '/');
+    </script>
+  </head>
+  <body></body>
+</html>

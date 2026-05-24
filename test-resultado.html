@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba - Resultado BDI-II con Hora</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --copper: #cd7131;
+            --copper-bg: #f5e6d3;
+            --text-primary: #1a1a1a;
+            --text-muted: #999;
+            --border: #e0e0e0;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        
+        .card {
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-top: 6px solid var(--copper);
+        }
+        
+        /* AQUÍ ESTÁ EL CÓDIGO QUE SE RENDERIZA */
+        .result-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .test-name {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        
+        .meta-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+        
+        .meta-tag {
+            font-size: 0.82rem;
+            background: var(--copper-bg);
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            color: var(--copper);
+        }
+        
+        /* NUEVO: Caja de fecha/hora en zona superior derecha */
+        .date-time-box {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            padding: 0.8rem 1rem;
+            background: linear-gradient(135deg, var(--copper-bg) 0%, rgba(205, 113, 49, 0.05) 100%);
+            border: 1px solid var(--copper);
+            border-radius: 6px;
+            min-width: 200px;
+            box-shadow: 0 2px 8px rgba(205, 113, 49, 0.1);
+        }
+        
+        .date-time-label {
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: var(--copper);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.4rem;
+        }
+        
+        .date-time {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            font-family: monospace;
+        }
+        
+        .info-box {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+        
+        .info-box strong {
+            color: #1565c0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="info-box">
+            <strong>✅ PRUEBA DE VALIDACIÓN</strong>
+            <p>Esta página demuestra cómo se renderiza el componente de hora en zona superior derecha.</p>
+        </div>
+        
+        <div class="card">
+            <div class="result-header">
+                <!-- CONTENIDO IZQUIERDO -->
+                <div style="flex: 1;">
+                    <h1 class="test-name">BDI-II — Inventario de Depresión de Beck</h1>
+                    <div class="meta-row">
+                        <span class="meta-tag">Caso: <strong>PRUEBA-2026</strong></span>
+                        <span class="meta-tag">Fecha: <strong>2026-05-18</strong></span>
+                        <span class="meta-tag">Profesional: <strong>Dr. Test</strong></span>
+                    </div>
+                    <div style="margin-top: 0.5rem; font-size: 0.75rem; color: var(--text-muted); font-style: italic;">
+                        Generado: <span id="generated-time"></span>
+                    </div>
+                </div>
+                
+                <!-- CONTENIDO DERECHO: HORA DE PUBLICACIÓN -->
+                <div class="date-time-box">
+                    <div class="date-time-label">Publicado</div>
+                    <div class="date-time" id="published-time"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="info-box" style="background: #f3e5f5; border-left-color: #7b1fa2;">
+            <strong style="color: #7b1fa2;">📋 Observa:</strong>
+            <ul style="margin-left: 20px; margin-top: 10px;">
+                <li>La caja "Publicado" está en la <strong>zona superior derecha</strong></li>
+                <li>Contiene la <strong>fecha completa</strong>: DD/MM/YYYY</li>
+                <li>Contiene la <strong>hora completa</strong>: HH:MM:SS</li>
+                <li>Tiene estilos profesionales con gradiente y sombra</li>
+                <li>La fuente es monoespaciada para mejor legibilidad</li>
+            </ul>
+        </div>
+    </div>
+    
+    <script>
+        // Función para formatear la fecha (igual a la del proyecto)
+        function formatGeneratedAt(isoString) {
+            try {
+                const date = new Date(isoString);
+                return date.toLocaleString('es-AR', {
+                    year: 'numeric',
+                    month: '2-digit',
+                    day: '2-digit',
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    second: '2-digit',
+                });
+            } catch {
+                return isoString;
+            }
+        }
+        
+        // Generar hora actual
+        const now = new Date().toISOString();
+        const formattedTime = formatGeneratedAt(now);
+        
+        document.getElementById('generated-time').textContent = formattedTime;
+        document.getElementById('published-time').textContent = formattedTime;
+        
+        console.log('Hora formateada:', formattedTime);
+        console.log('Contiene DD/MM/YYYY:', /\d{2}\/\d{2}\/\d{4}/.test(formattedTime));
+        console.log('Contiene HH:MM:SS:', /\d{2}:\d{2}:\d{2}/.test(formattedTime));
+    </script>
+</body>
+</html>
