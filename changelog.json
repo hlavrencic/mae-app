@@ -1,6 +1,12 @@
 {
   "entries": [
     {
+      "date": "2026-08-23T14:30",
+      "version": "1.2.0",
+      "title": "Historial inteligente de cambios",
+      "description": "El historial de cambios se filtra automáticamente para mostrar solo las novedades desde tu última visita. En tu primer ingreso, verás el historial completo."
+    },
+    {
       "date": "2026-08-23T01:20",
       "version": "1.1.0",
       "title": "Topbar que se oculta al hacer scroll",
