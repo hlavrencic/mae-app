@@ -1,0 +1,23 @@
+{
+  "entries": [
+    {
+      "date": "2026-08-23",
+      "version": "1.0.2",
+      "title": "Historial de Cambios",
+      "description": "Nueva pantalla para ver las novedades de la aplicación. Filtra los cambios por fecha desde el menú lateral."
+    },
+    {
+      "date": "2026-08-23",
+      "version": "1.0.1",
+      "title": "Indicadores de Almacenamiento en Tests",
+      "description": "Ahora puedes ver el espacio de almacenamiento utilizado en cada test. Visualiza el tamaño para optimizar resultados."
+    },
+    {
+      "date": "2026-08-23",
+      "version": "1.0.0",
+      "title": "Lanzamiento Inicial de MAE",
+      "description": "Primera versión de MAE con autenticación, pruebas de diagnóstico y almacenamiento de resultados."
+    }
+  ]
+}
+}
