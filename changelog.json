@@ -1,6 +1,12 @@
 {
   "entries": [
     {
+      "date": "2026-08-23T16:00",
+      "version": "1.3.0",
+      "title": "Actualizaciones Automáticas",
+      "description": "La aplicación verifica automáticamente cada 5 minutos si hay una nueva versión disponible. Cuando la detecta, muestra un aviso para que actualices con un clic."
+    },
+    {
       "date": "2026-08-23T14:30",
       "version": "1.2.0",
       "title": "Historial inteligente de cambios",
@@ -14,15 +20,81 @@
     },
     {
       "date": "2026-08-23T01:03",
-      "version": "1.0.2",
+      "version": "1.0.13",
       "title": "Historial de Cambios",
       "description": "Nueva pantalla para ver las novedades de la aplicación. Filtra los cambios por fecha desde el menú lateral."
     },
     {
       "date": "2026-08-23T00:30",
-      "version": "1.0.1",
+      "version": "1.0.12",
       "title": "Indicadores de Almacenamiento en Tests",
       "description": "Ahora puedes ver el espacio de almacenamiento utilizado en cada test. Visualiza el tamaño para optimizar resultados."
+    },
+    {
+      "date": "2026-08-22T23:28",
+      "version": "1.0.11",
+      "title": "Rediseño del Resumen de Resultados",
+      "description": "El resumen general de resultados fue rediseñado para parecerse a los informes clínicos profesionales, con mejor lectura de la severidad."
+    },
+    {
+      "date": "2026-08-18T00:07",
+      "version": "1.0.10",
+      "title": "Manejo de Errores Más Claro y Confiable",
+      "description": "La aplicación detecta mejor los errores de conexión, reintenta automáticamente ante fallas temporales y muestra mensajes claros sobre qué hacer."
+    },
+    {
+      "date": "2026-08-16T22:00",
+      "version": "1.0.9",
+      "title": "Impresión y Guardado en PDF",
+      "description": "Ahora puedes imprimir tus resultados o guardarlos como PDF directamente desde la pantalla de resultados."
+    },
+    {
+      "date": "2026-08-16T02:47",
+      "version": "1.0.8",
+      "title": "Navegación de Resultados Mejorada",
+      "description": "Los resultados ahora se abren mediante identificadores seguros en lugar de enlaces largos cifrados, mejorando la velocidad y confiabilidad de acceso."
+    },
+    {
+      "date": "2026-08-11T21:21",
+      "version": "1.0.7",
+      "title": "Manejo de Errores de Google",
+      "description": "Cuando ocurre un problema de conexión con los servicios de Google, la aplicación ahora te redirige e informa claramente qué sucedió."
+    },
+    {
+      "date": "2026-07-20T14:59",
+      "version": "1.0.6",
+      "title": "Verificación Automática de Sesión",
+      "description": "La aplicación verifica si tu sesión sigue activa al abrirla y te redirige automáticamente al lugar correcto."
+    },
+    {
+      "date": "2026-07-18T23:47",
+      "version": "1.0.5",
+      "title": "Resultados Genéricos con Cifrado",
+      "description": "Se unificó la forma de mostrar resultados de todas las pruebas en una sola pantalla, protegiendo los datos sensibles con cifrado."
+    },
+    {
+      "date": "2026-06-30T23:20",
+      "version": "1.0.4",
+      "title": "Alertas Clínicas en Resultados",
+      "description": "Los resultados ahora incluyen alertas visuales que destacan los niveles de severidad más relevantes de cada evaluación."
+    },
+    {
+      "date": "2026-06-28T22:10",
+      "version": "1.0.3",
+      "title": "Visualización Dinámica de Resultados",
+      "description": "Los resultados de las pruebas se muestran ahora con gráficos y termómetros de severidad que se adaptan automáticamente a cada tipo de test."
+    },
+    {
+      "date": "2026-06-21T00:33",
+      "version": "1.0.2",
+      "title": "Autenticación de Usuarios",
+      "description": "Ahora puedes crear una cuenta e iniciar sesión con usuario y contraseña de forma segura."
+    },
+    {
+      "date": "2026-06-07T06:34",
+      "version": "1.0.1",
+      "title": "Sección de Pruebas Realizadas",
+      "description": "Nueva sección para consultar el historial de pruebas realizadas, con carga rápida y detalle de cada resultado."
     },
     {
       "date": "2026-05-08T03:35",
