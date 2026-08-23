@@ -1,25 +1,25 @@
 {
   "entries": [
     {
-      "date": "2026-08-23",
+      "date": "2026-08-23T16:45",
       "version": "1.1.0",
       "title": "Topbar que se oculta al hacer scroll",
       "description": "La barra superior ahora se oculta automáticamente al bajar en la página, y vuelve a aparecer al subir, dejando más espacio para ver el contenido."
     },
     {
-      "date": "2026-08-23",
+      "date": "2026-08-23T12:30",
       "version": "1.0.2",
       "title": "Historial de Cambios",
       "description": "Nueva pantalla para ver las novedades de la aplicación. Filtra los cambios por fecha desde el menú lateral."
     },
     {
-      "date": "2026-08-23",
+      "date": "2026-08-23T10:15",
       "version": "1.0.1",
       "title": "Indicadores de Almacenamiento en Tests",
       "description": "Ahora puedes ver el espacio de almacenamiento utilizado en cada test. Visualiza el tamaño para optimizar resultados."
     },
     {
-      "date": "2026-08-23",
+      "date": "2026-08-23T09:00",
       "version": "1.0.0",
       "title": "Lanzamiento Inicial de MAE",
       "description": "Primera versión de MAE con autenticación, pruebas de diagnóstico y almacenamiento de resultados."
