@@ -1,6 +1,12 @@
 {
   "entries": [
     {
+      "date": "2026-08-31T18:00",
+      "version": "1.4.1",
+      "title": "Corrección en Datos del Evaluado",
+      "description": "Se corrigió un error por el cual los datos del evaluado (nombre, sexo, edad, etc.) no se completaban correctamente en la planilla de resultados."
+    },
+    {
       "date": "2026-08-31T14:00",
       "version": "1.4.0",
       "title": "Respuestas Adicionales en Tests Dinámicos",
