@@ -1,6 +1,12 @@
 {
   "entries": [
     {
+      "date": "2026-08-31T14:00",
+      "version": "1.4.0",
+      "title": "Respuestas Adicionales en Tests Dinámicos",
+      "description": "Algunos tests incluyen ahora preguntas con respuestas adicionales como 'Aumento' o 'Disminución'. Completa estos desplegables junto con el puntaje para enviar el test. El progreso guardado también incluye estas selecciones."
+    },
+    {
       "date": "2026-08-23T02:40",
       "version": "1.3.0",
       "title": "Actualizaciones Automáticas",
