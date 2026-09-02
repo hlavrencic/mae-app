@@ -1,6 +1,12 @@
 {
   "entries": [
     {
+      "date": "2026-09-01T14:30",
+      "version": "1.6.0",
+      "title": "Registro automático de auditoría en evaluaciones",
+      "description": "Cada vez que completas y envías un test, la aplicación ahora registra automáticamente la fecha, hora, tu nombre y matrícula profesional. Esto proporciona un historial completo de todas las evaluaciones realizadas, facilitando el seguimiento y la auditoría de los procesos."
+    },
+    {
       "date": "2026-08-31T22:00",
       "version": "1.5.1",
       "title": "Resultados más claros",
