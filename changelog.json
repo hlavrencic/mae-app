@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "date": "2026-09-07T09:30",
+      "version": "1.7.1",
+      "title": "Corrección visual en pantalla de carga inicial",
+      "description": "Se corrigió un problema por el cual el ícono de carga tapaba el mensaje de la pantalla inicial y no dejaba leerlo. Ahora el texto se ve correctamente junto al indicador de progreso."
+    },
+    {
+      "date": "2026-09-07T08:40",
+      "version": "1.7.0",
+      "title": "Indicador de arranque del servidor",
+      "description": "Cuando accedes a MAE después de tiempo sin usar la app, el servidor tarda unos segundos en iniciarse. Ahora la pantalla de carga te lo comunica claramente, para que no pienses que algo está mal."
+    },
+    {
       "date": "2026-09-01T23:30",
       "version": "1.6.0",
       "title": "Registro automático de auditoría en evaluaciones",
