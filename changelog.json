@@ -1,6 +1,12 @@
 {
   "entries": [
     {
+      "date": "2026-09-18T14:30",
+      "version": "1.7.2",
+      "title": "Mejoras al informe BDI-II y corrección de campos de evaluación",
+      "description": "En evaluaciones clínicas, ya no se solicitan 'Fuero' ni 'Expediente N°' (estos datos ahora solo aparecen en evaluaciones forenses). Se corrigió el rango de edad: ahora aceptamos entre 13 y 99 años. El informe ahora muestra la interpretación completa de cada subescala, incluye la columna 'Subescala' en la tabla de ítems, no muestra secciones vacías, y se imprime correctamente sin cortes de página."
+    },
+    {
       "date": "2026-09-07T09:30",
       "version": "1.7.1",
       "title": "Corrección visual en pantalla de carga inicial",
