@@ -1,6 +1,12 @@
 {
   "entries": [
     {
+      "date": "2026-10-01T10:00",
+      "version": "1.8.0",
+      "title": "Limpieza automática de hojas de cálculo temporales",
+      "description": "Mejora de privacidad: Una vez que tus resultados se entregan en el navegador y se guardan en almacenamiento local, la hoja de cálculo temporal generada en Google Drive se mueve automáticamente a la papelera. Si esto falla, el sistema reintenta la eliminación en segundo plano para garantizar tu privacidad."
+    },
+    {
       "date": "2026-09-18T14:30",
       "version": "1.7.2",
       "title": "Mejoras al informe BDI-II y corrección de campos de evaluación",
