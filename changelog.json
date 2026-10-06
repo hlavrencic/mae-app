@@ -1,6 +1,12 @@
 {
   "entries": [
     {
+      "date": "2026-10-05T14:30",
+      "version": "1.8.1",
+      "title": "Nombres más descriptivos para hojas de cálculo generadas",
+      "description": "Al realizar una evaluación, la hoja de cálculo que se genera ahora lleva el nombre del test en su identificación, junto con el código del evaluado y la fecha. Esto facilita encontrar tus archivos generados en Google Drive."
+    },
+    {
       "date": "2026-10-01T10:00",
       "version": "1.8.0",
       "title": "Limpieza automática de hojas de cálculo temporales",
