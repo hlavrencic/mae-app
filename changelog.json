@@ -1,6 +1,12 @@
 {
   "entries": [
     {
+      "date": "2026-10-05T16:00",
+      "version": "1.9.0",
+      "title": "Recuperación de Contraseña",
+      "description": "¿Olvidaste tu contraseña? Ahora puedes recuperarla desde el login: ingresa tu email y recibirás un enlace para definir una nueva. El enlace vence a los 30 minutos y solo puede usarse una vez. Tus sesiones abiertas en otros dispositivos no se cierran."
+    },
+    {
       "date": "2026-10-05T14:30",
       "version": "1.8.1",
       "title": "Nombres más descriptivos para hojas de cálculo generadas",
