@@ -1,10 +1,16 @@
 {
   "entries": [
     {
+      "date": "2026-10-08T10:00",
+      "version": "1.10.0",
+      "title": "Informe de resultados más claro y fácil de imprimir",
+      "description": "El informe ahora es más legible e imprime mejor. Los resultados severos aparecen en rojo, las alertas clínicas indican su nivel con palabras (Crítica, Advertencia, Informativa), y el protocolo de respuestas se ve en una tabla compacta. Los PDF se imprimen sin hojas casi vacías y mantienen los colores. Si el protocolo tiene problemas, aparece una advertencia sin afectar los gráficos."
+    },
+    {
       "date": "2026-10-05T16:00",
       "version": "1.9.0",
       "title": "Recuperación de Contraseña",
-      "description": "¿Olvidaste tu contraseña? Ahora puedes recuperarla desde el login: ingresa tu email y recibirás un enlace para definir una nueva. El enlace vence a los 30 minutos y solo puede usarse una vez. Tus sesiones abiertas en otros dispositivos no se cierran."
+      "description": "Olvidaste tu contraseña? Solicita una recuperación desde el login y recibe un enlace por correo. Puedes establecer una nueva contraseña en 30 minutos. Por seguridad, el enlace expira después y solo se puede usar una vez."
     },
     {
       "date": "2026-10-05T14:30",
