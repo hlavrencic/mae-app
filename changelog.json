@@ -1,6 +1,12 @@
 {
   "entries": [
     {
+      "date": "2026-10-10T18:00",
+      "version": "1.14.1",
+      "title": "Información de Service Account visible en configuración OAuth2",
+      "description": "En la pantalla de administración de configuración OAuth2 (AdminOAuthSetup), ahora se muestra el email (nombre de la cuenta) y el proyecto de la Service Account de Google que está usando el sistema, para que los administradores puedan validar que se están tomando correctamente las credenciales configuradas."
+    },
+    {
       "date": "2026-10-10T17:00",
       "version": "1.14.0",
       "title": "Logo MAE en el encabezado de los informes",
