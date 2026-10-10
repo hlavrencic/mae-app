@@ -1,0 +1,1 @@
+import{c as e}from"./index-4fMnnq4c.js";var t=e();function n(){return(0,t.jsxs)(`main`,{className:`home`,children:[(0,t.jsx)(`h1`,{children:`MAE`}),(0,t.jsx)(`p`,{children:`Plataforma de tabulación e interpretación de tests psicométricos`})]})}export{n as default};
