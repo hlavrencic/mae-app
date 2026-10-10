@@ -1,6 +1,24 @@
 {
   "entries": [
     {
+      "date": "2026-10-10T17:00",
+      "version": "1.14.0",
+      "title": "Logo MAE en el encabezado de los informes",
+      "description": "El encabezado de los informes de BDI-II y BAI ahora incluye el logo MAE centrado sobre el nombre del test y los autores."
+    },
+    {
+      "date": "2026-10-10T16:45",
+      "version": "1.13.0",
+      "title": "Control mejorado de privacidad en resultados",
+      "description": "Ahora tienes más control sobre tus archivos de resultados. Por defecto, se eliminan automáticamente de Google Drive una vez que recibes tus resultados en el navegador, protegiendo tu privacidad. Si los necesitas en Drive, ahora puedes optar por conservarlos."
+    },
+    {
+      "date": "2026-10-10T15:30",
+      "version": "1.12.0",
+      "title": "Nuevo encabezado en los informes de resultados",
+      "description": "Los informes de BDI-II y BAI ahora muestran un encabezado centrado con el nombre completo del test y la línea de autores y año, con fondo azul noche y título en cobre."
+    },
+    {
       "date": "2026-10-10T14:00",
       "version": "1.11.0",
       "title": "Nuevo logo MAE en cobre y oro rosado",
