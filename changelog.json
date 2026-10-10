@@ -1,6 +1,12 @@
 {
   "entries": [
     {
+      "date": "2026-10-10T14:00",
+      "version": "1.11.0",
+      "title": "Nuevo logo MAE en cobre y oro rosado",
+      "description": "El logo MAE se renovó con un nuevo diseño en cobre y oro rosado, optimizado en diferentes tamaños (WebP y SVG) para descargas más rápidas. Lo verás en la pantalla de login, recuperación de contraseña, barra lateral y pantalla de carga."
+    },
+    {
       "date": "2026-10-08T10:00",
       "version": "1.10.0",
       "title": "Informe de resultados más claro y fácil de imprimir",
