@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "date": "2026-10-12T10:30",
+      "version": "1.16.0",
+      "title": "Mis Datos",
+      "description": "Ahora podés modificar tu nombre y matrícula desde el nuevo menú \"Mis Datos\" (o haciendo clic en tu nombre). Tu correo y contraseña no se pueden cambiar desde esta pantalla por motivos de seguridad."
+    },
+    {
+      "date": "2026-10-12T10:00",
+      "version": "1.15.0",
+      "title": "Roles de usuario y permisos de administración",
+      "description": "Ahora se pueden asignar roles (por ejemplo admin) a cada usuario. La pantalla de configuración OAuth2 y su botón del menú quedan disponibles únicamente para usuarios con rol admin; el resto ve un mensaje de falta de permisos."
+    },
+    {
       "date": "2026-10-10T18:00",
       "version": "1.14.1",
       "title": "Información de Service Account visible en configuración OAuth2",
