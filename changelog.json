@@ -1,6 +1,12 @@
 {
   "entries": [
     {
+      "date": "2026-10-12T22:00",
+      "version": "1.17.0",
+      "title": "Recuperación de contraseña más confiable",
+      "description": "Mejoramos el envío del correo de recuperación de contraseña para que te llegue de forma más rápida y confiable. Si olvidaste tu contraseña, podés pedir un nuevo enlace desde la pantalla de inicio de sesión."
+    },
+    {
       "date": "2026-10-12T10:30",
       "version": "1.16.0",
       "title": "Mis Datos",
