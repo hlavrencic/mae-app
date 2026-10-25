@@ -1,0 +1,1 @@
+var e=`admin`;function t(e){return!0}function n(){let e=localStorage.getItem(`mae_token`);return e?{Authorization:`Bearer ${e}`}:{}}export{n,t as r,e as t};

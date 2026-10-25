@@ -1,1 +1,0 @@
-var e=`admin`;function t(){try{let e=localStorage.getItem(`mae_user`),t=e?JSON.parse(e).roles:[];return Array.isArray(t)?t.map(e=>String(e).toLowerCase()):[]}catch{return[]}}function n(e){return t().includes(e)}function r(){let e=localStorage.getItem(`mae_token`);return e?{Authorization:`Bearer ${e}`}:{}}export{r as n,n as r,e as t};

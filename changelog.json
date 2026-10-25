@@ -1,6 +1,12 @@
 {
   "entries": [
     {
+      "date": "2026-10-25T16:31",
+      "version": "1.18.0",
+      "title": "Formularios dinámicos para datos de evaluación",
+      "description": "Los formularios para datos del evaluado y evaluación ahora se adaptan automáticamente a los campos configurados en cada test. Incluye soporte para texto, fechas, listas desplegables y campos obligatorios. Si el test no tiene configuración especial, se mantiene el formulario anterior."
+    },
+    {
       "date": "2026-10-12T22:00",
       "version": "1.17.0",
       "title": "Recuperación de contraseña más confiable",
