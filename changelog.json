@@ -1,6 +1,12 @@
 {
   "entries": [
     {
+      "date": "2026-10-25T22:05",
+      "version": "1.18.1",
+      "title": "Validación más útil en formularios de test",
+      "description": "Cuando falta completar campos al enviar un test, la pantalla te lleva automáticamente al primer campo, lo resalta en rojo y te muestra qué falta."
+    },
+    {
       "date": "2026-10-25T16:31",
       "version": "1.18.0",
       "title": "Formularios dinámicos para datos de evaluación",
