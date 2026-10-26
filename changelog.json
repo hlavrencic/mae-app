@@ -1,6 +1,12 @@
 {
   "entries": [
     {
+      "date": "2026-10-26T11:12",
+      "version": "1.18.2",
+      "title": "Formularios responsivos en pantalla de test",
+      "description": "Los formularios en la pantalla de test se adaptan al tamaño de tu pantalla: columna en celulares, dos columnas en pantallas grandes. Sin desplazamiento horizontal."
+    },
+    {
       "date": "2026-10-25T22:05",
       "version": "1.18.1",
       "title": "Validación más útil en formularios de test",
