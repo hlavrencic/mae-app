@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-DmaltCKy.js";var t=e();function n(){return(0,t.jsxs)(`main`,{className:`home`,children:[(0,t.jsx)(`h1`,{children:`MAE`}),(0,t.jsx)(`p`,{children:`Plataforma de tabulación e interpretación de tests psicométricos`})]})}export{n as default};
