@@ -1,4 +1,4 @@
-import{a as e,n as t,t as n}from"./jsx-runtime-DmaltCKy.js";import{a as r,o as i}from"./index-DcnWWm58.js";import{t as a}from"./LegalMarkdown-BkipfWO7.js";import{t as o}from"./PublicLayout-onMc6tCr.js";var s=e(t(),1);async function c(){try{let e=await i(`${r.baseURL}/legal/version`);return e.ok?await e.json():null}catch{return null}}function l(e){let[t,n,r]=e.split(`-`);return t&&n&&r?`${r}/${n}/${t}`:e}var u=`<!-- PROVISORIO: pendientes [DOMICILIO] y [PROVEEDOR DEL SERVIDOR]. No publicar en producción hasta la versión final. -->
+import{a as e,n as t,t as n}from"./jsx-runtime-DmaltCKy.js";import{a as r,o as i}from"./index-BP-P2bIP.js";import{t as a}from"./LegalMarkdown-BkipfWO7.js";import{t as o}from"./PublicLayout-BbbVxw1f.js";var s=e(t(),1);async function c(){try{let e=await i(`${r.baseURL}/legal/version`);return e.ok?await e.json():null}catch{return null}}function l(e){let[t,n,r]=e.split(`-`);return t&&n&&r?`${r}/${n}/${t}`:e}var u=`<!-- PROVISORIO: pendientes [DOMICILIO] y [PROVEEDOR DEL SERVIDOR]. No publicar en producción hasta la versión final. -->
 
 # POLÍTICA DE PRIVACIDAD DE MAE
 
