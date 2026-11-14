@@ -1,6 +1,12 @@
 {
   "entries": [
     {
+      "date": "2026-11-14T15:30",
+      "version": "1.19.0",
+      "title": "Opciones de respuesta propias de cada test",
+      "description": "Al cargar las respuestas, cada pregunta muestra ahora las opciones definidas para ese test: escalas de 0 a 4, de 0 a 5, de 1 a 5, opciones con texto o Verdadero/Falso en el MMPI-2. Ya no se ofrecen siempre las opciones 0 a 3, por lo que se pueden marcar todos los valores válidos y los informes reflejan correctamente las respuestas."
+    },
+    {
       "date": "2026-10-26T11:12",
       "version": "1.18.2",
       "title": "Formularios responsivos en pantalla de test",
