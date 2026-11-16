@@ -1,6 +1,12 @@
 {
   "entries": [
     {
+      "date": "2026-11-16T03:10",
+      "version": "1.21.0",
+      "title": "Mi perfil renovado con Clerk",
+      "description": "Mi perfil se renovó. Ahora puedes agregar tu título profesional (Lic., Dr., Mg.), nombre y apellido por separado, teléfono y matrícula. Tu nombre completo aparece en todos tus informes. Una única pantalla para completar tu perfil; una vez aceptados Términos y declaración de uso, se muestran solo para lectura. El acceso ahora es exclusivamente con Clerk."
+    },
+    {
       "date": "2026-11-16T00:15",
       "version": "1.20.0",
       "title": "Panel de tests organizado por secciones",
