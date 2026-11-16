@@ -1,6 +1,12 @@
 {
   "entries": [
     {
+      "date": "2026-11-16T04:25",
+      "version": "1.23.0",
+      "title": "Darte de baja desde Mi perfil",
+      "description": "Ahora podés darte de baja desde Mi perfil con el botón «Darme de baja». Para confirmar, tenés que escribir de nuevo tu email. Una vez dada de baja, la cuenta ya no puede iniciar sesión. El «Botón de baja» del pie de página te lleva directo a ese botón. Además, quitamos el «Botón de arrepentimiento»: si querés pedir el arrepentimiento, escribinos a soporte@maepsicometria.com."
+    },
+    {
       "date": "2026-11-16T03:50",
       "version": "1.22.0",
       "title": "Reportá problemas y pedí soporte desde la aplicación",
