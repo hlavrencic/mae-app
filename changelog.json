@@ -1,6 +1,12 @@
 {
   "entries": [
     {
+      "date": "2026-11-16T00:15",
+      "version": "1.20.0",
+      "title": "Panel de tests organizado por secciones",
+      "description": "El panel principal ahora organiza los tests en secciones (como tests gratuitos, de acceso anticipado y próximos al lanzamiento) con títulos personalizados. Se muestran todos los tests; los que no están disponibles para tu plan aparecen con el botón deshabilitado."
+    },
+    {
       "date": "2026-11-14T15:30",
       "version": "1.19.0",
       "title": "Opciones de respuesta propias de cada test",
