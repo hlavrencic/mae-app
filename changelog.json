@@ -1,6 +1,12 @@
 {
   "entries": [
     {
+      "date": "2026-11-16T03:50",
+      "version": "1.22.0",
+      "title": "Reportá problemas y pedí soporte desde la aplicación",
+      "description": "Ahora podés avisarnos de una anomalía, pedir ayuda o dejar una sugerencia con el botón «Reportar» de la barra superior. Escribís qué pasó y, si querés, se adjunta una captura de tu pantalla (podés destildarla antes de enviar). Recibimos tu reporte al instante y lo atendemos con tu usuario y el contexto de la pantalla en la que estabas."
+    },
+    {
       "date": "2026-11-16T03:10",
       "version": "1.21.0",
       "title": "Mi perfil renovado con Clerk",
