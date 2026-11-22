@@ -1,6 +1,12 @@
 {
   "entries": [
     {
+      "date": "2026-11-21T22:15",
+      "version": "1.24.0",
+      "title": "Indicadores de carga más claros",
+      "description": "Mientras la aplicación espera una respuesta del servidor, el indicador de carga ahora aparece solo sobre la parte de la pantalla que se está cargando, en lugar de tapar todo. Si la espera supera los 3 segundos, se muestra una barra de progreso con mensajes de espera para que sepas que la aplicación sigue trabajando."
+    },
+    {
       "date": "2026-11-16T04:25",
       "version": "1.23.0",
       "title": "Darte de baja desde Mi perfil",
