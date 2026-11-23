@@ -1,6 +1,12 @@
 {
   "entries": [
     {
+      "date": "2026-11-23T16:10",
+      "version": "1.25.0",
+      "title": "Costo de créditos visible en cada test",
+      "description": "El Panel ahora muestra cuántos créditos cuesta realizar cada evaluación (por ejemplo «1 crédito», «3 créditos») en lugar de «Gratuito» o «Suscripción»."
+    },
+    {
       "date": "2026-11-21T22:15",
       "version": "1.24.0",
       "title": "Indicadores de carga más claros",
